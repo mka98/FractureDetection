@@ -12,7 +12,7 @@ root.title("Fracture Detection GUI") # title of the window
 root.resizable(width=True, height=True)#if the widow should be resiable which is true meaning it is
 #how to get the name of a files path function
 def openfn():
-	global filename
+	global filename#test
  
 	filename = filedialog.askopenfilename(title='open')
 	print(filename)#print statment to see if it is getting the correct filepath
